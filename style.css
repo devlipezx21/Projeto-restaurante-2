@@ -541,12 +541,15 @@ header .icons #menu-bars{
     }
     .menu .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
         gap: 2.8rem;
     }
-    .menu .box-container .box img{
-        height: 18rem;
-        margin: 1rem 0;
+    .menu .box-container .box .image img{
+        height: 300px;
+        width: 300px;
+        border-radius: .5rem;
+        align-items: center;
+        object-fit: cover;
     }
     .footer .box-container .box h3{
         padding: .5rem 0;
