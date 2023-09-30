@@ -564,6 +564,14 @@ header .icons #menu-bars{
     }
 }
 
+@media (max-width:560px){
+    .menu .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        gap: 2.5rem;
+    }
+}
+
 @media (max-width:991px){
 
     html{
